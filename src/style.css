@@ -1,0 +1,80 @@
+body{
+    margin: 0px;
+    background-color: brown;
+}
+#title{
+    font-size: 40px;
+    text-decoration:underline;
+    text-underline-offset: 10px;
+}
+#add{
+    font-size: 20px;
+    margin-top: 20px;
+    border: dashed 1px rgb(136, 4, 4);
+    background-color: rgb(211, 115, 115);
+}
+#add:hover{
+    background-color: brown;
+}
+#f{
+    width: 500px;
+    height: 500px;
+    background-color: rgb(123, 7, 7);
+}
+#e{
+    display: flex;
+    flex-direction: column;
+}
+#submit{
+    font-size: 20px;
+    margin-top: 20px;
+    border: dashed 1px rgb(136, 4, 4);
+    background-color: rgb(211, 115, 115);
+}
+input,
+textarea{
+    border: none;
+    border-radius: 10px;
+    background-color: rgb(101, 45, 45);
+}
+  
+#left{
+    width: 20rem;
+    height: 100vh;
+    background-color: rgb(211, 115, 115);
+}
+#right{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 100vh;
+    background-color: brown;
+    overflow: scroll;
+    overflow-x: hidden;
+}
+#holder{
+    display: flex;
+}
+#card{
+    display: flex;
+    flex-direction: column;
+    width: 20.38rem;
+    height: 20rem;
+    background-color: rgb(150, 35, 6);
+}
+#card1,
+#card2{
+    width: 20.38rem;
+    height: 10rem;
+}
+#cardbt{
+    margin-top: 30px;
+    width: 20.38rem;
+    height: 40px;
+    font-size: 20px;
+    border: dashed 1px rgb(136, 4, 4);
+    background-color: rgb(174, 5, 5)
+}
+#cardbt:hover{
+    background-color: brown;
+}
